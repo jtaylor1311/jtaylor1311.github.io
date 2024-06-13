@@ -103,6 +103,7 @@ nav ul li a:hover::after{
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    color: #232323;
 }
 .tab-links{
     margin-right: 50px;
@@ -110,6 +111,7 @@ nav ul li a:hover::after{
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    color:#232323;
 }
 .tab-links::after{
     content: '';
@@ -135,9 +137,11 @@ nav ul li a:hover::after{
 }
 .tab-contents{
     display: none;
+    color: #232323;
 }
 .tab-contents.active-tab{
     display: block;
+    color: #232323;
 }
 /*SERVICES*/
 #services{
@@ -150,7 +154,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .services-list div{
-    background: #262626;
+    background: #ffffff;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
