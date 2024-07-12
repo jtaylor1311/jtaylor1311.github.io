@@ -287,17 +287,17 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #0199ff;
     display: inline-block;
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #A0D9FF;
+    color: #0199ff;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #A0D9FF;
+    background: #0199ff;
 }
 .contact-right form{
     width: 100%;
@@ -307,7 +307,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: #dbdbdb;
     padding: 15px;
     margin: 15px 0;
     color: #292929;
