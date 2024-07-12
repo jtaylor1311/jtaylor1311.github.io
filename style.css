@@ -163,6 +163,15 @@ nav ul li a:hover::after{
     border-radius: 10px;
     transition: backgroud 0.5s,transform 0.5s;
 }
+.services-list-inner{
+    background: #F6F0D9;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: backgroud 0.5s,transform 0.5s;
+}
+
 .services-list div i{
     font-size: 50px;
     margin-bottom: 30px;
@@ -179,10 +188,15 @@ nav ul li a:hover::after{
     margin-top: 20px;
     display: inline-block;
 }
-.services-list div:hover{
+
+
+.services-list div:hover .services-list-inner{
     background: #A0D9FF;
-    transform: translateY(-10px);
+    transform: rotateY(180deg);
+    /* transform: translateY(-10px); */
 }
+
+
 /*portfolio*/
 #portfolio{
     padding: 50px 0;
