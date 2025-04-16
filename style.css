@@ -102,8 +102,9 @@ nav ul li a:hover::after{
     color: #000000;
 }
 .sub-title-2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
+    color: #0199ff;
 }
 .tab-titles{
     display: flex;
